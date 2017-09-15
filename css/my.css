@@ -1,0 +1,681 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\000031}}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+  min-height: 480px;
+  max-width: 450px;
+  max-height: 800px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000311}}
+.upload {
+  width: 30%;
+  margin: 100px auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000315}}
+.content {
+  width: 100%;
+  height: 100%;
+}
+@keyframes move {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000319}}
+  from {
+    transform: rotate(0deg);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000322}}
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000326}}
+.content .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000329}}
+.content .swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000333}}
+.content .swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000337}}
+.content .swiper-container .swiper-wrapper .swiper-slide .music_off {
+  position: absolute;
+  display: none;
+  top: 5%;
+  right: 5%;
+  width: 10%;
+  z-index: 100000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000345}}
+.content .swiper-container .swiper-wrapper .swiper-slide .music {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 10%;
+  z-index: 100000;
+  animation: move 0.5s infinite linear;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000354}}
+.content .swiper-container .swiper-wrapper .swiper-slide .next {
+  position: absolute;
+  bottom: 1%;
+  left: 47.5%;
+  width: 5%;
+  z-index: 100000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000361}}
+.content .swiper-container .swiper-wrapper .swiper-slide .pic {
+  position: absolute;
+  left: 12.5%;
+  top: 11%;
+  width: 75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000367}}
+.content .swiper-container .swiper-wrapper .swiper-slide .bj {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000374}}
+.content .swiper-container .swiper-wrapper .swiper-slide .bj1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000381}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000385}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide1 .pic1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000391}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide1 .pic2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\0000398}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide1 div .pic3 {
+  position: absolute;
+  top: 22%;
+  left: 23.5%;
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003104}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide1 div .pic4 {
+  position: absolute;
+  top: 24%;
+  left: 30%;
+  width: 40%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003112}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide1 .pic5 {
+  position: absolute;
+  top: 65%;
+  left: 40%;
+  width: 20%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003118}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide1 .pic6 {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  width: 20%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003124}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide1 .pic7 {
+  position: absolute;
+  top: 86%;
+  left: 76%;
+  width: 20%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003130}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide1 .pic8 {
+  position: absolute;
+  bottom: 1%;
+  left: 30%;
+  width: 40%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003136}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide1 .pic9 {
+  position: absolute;
+  top: 48%;
+  left: 42%;
+  width: 18%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003143}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide1 .pic11 {
+  position: absolute;
+  top: 83%;
+  left: 22%;
+  width: 20%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003151}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003156}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 .pic1 {
+  position: absolute;
+  width: 40%;
+  top: 0;
+  left: 30%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003162}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 .pic2 {
+  position: absolute;
+  width: 90%;
+  top: 14%;
+  left: 5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003168}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 .pic3 {
+  position: absolute;
+  width: 16%;
+  top: -3%;
+  left: 2%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003174}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 .pic4 {
+  position: absolute;
+  width: 14%;
+  top: 21%;
+  left: 13%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003180}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 .pic5 {
+  position: absolute;
+  width: 21%;
+  top: -3%;
+  right: 5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003186}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 .pic6 {
+  position: absolute;
+  width: 55%;
+  top: 0;
+  right: 22.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003192}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 .pic7 {
+  position: absolute;
+  width: 20%;
+  top: 36%;
+  right: 34.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003198}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 .pic8 {
+  position: absolute;
+  width: 10%;
+  top: 25%;
+  right: 32.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003204}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 .pic9 {
+  position: absolute;
+  width: 74%;
+  bottom: -15%;
+  left: 13%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003210}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 .pic10 {
+  position: absolute;
+  width: 48%;
+  bottom: -4%;
+  left: 26%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003216}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 .pic11 {
+  position: absolute;
+  width: 25%;
+  bottom: 11%;
+  left: 4%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003222}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 .pic12 {
+  position: absolute;
+  width: 18%;
+  bottom: 6%;
+  left: 73%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003228}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 .pic13 {
+  position: absolute;
+  width: 100%;
+  bottom: -3%;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003234}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 .pic14 {
+  position: absolute;
+  width: 3%;
+  top: 46%;
+  left: 44%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003240}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide2 .pic15 {
+  position: absolute;
+  width: 6%;
+  top: 39%;
+  left: 37%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003247}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide3 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003251}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide3 .pic1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 23%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003257}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide3 .pic2 {
+  position: absolute;
+  right: -29%;
+  top: 0%;
+  width: 82%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003263}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide3 .pic3 {
+  position: absolute;
+  width: 42%;
+  left: 29%;
+  top: 20%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003269}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide3 .pic4 {
+  position: absolute;
+  width: 20%;
+  right: 7%;
+  top: 38%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003276}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide3 .pic5 {
+  position: absolute;
+  width: 20%;
+  right: 7%;
+  top: 22%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003283}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide3 .pic6 {
+  position: absolute;
+  left: -4%;
+  bottom: -18%;
+  width: 140%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003289}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide3 .pic7 {
+  position: absolute;
+  top: 5%;
+  right: 7%;
+  width: 35%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003295}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide3 .pic8 {
+  position: absolute;
+  width: 88%;
+  right: 0%;
+  bottom: 0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003301}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide3 .pic9 {
+  position: absolute;
+  width: 90%;
+  bottom: -4%;
+  left: 13%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003307}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide3 .pic10 {
+  position: absolute;
+  width: 80%;
+  bottom: 0%;
+  left: 5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003314}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003318}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide4 .pic1 {
+  position: absolute;
+  left: -19%;
+  top: -4%;
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003324}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide4 .pic2 {
+  position: absolute;
+  left: 9%;
+  top: -5%;
+  width: 27%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003330}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide4 .pic3 {
+  position: absolute;
+  left: 45%;
+  top: -6%;
+  width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003336}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide4 .pic4 {
+  position: absolute;
+  left: 20%;
+  top: 12%;
+  width: 30%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003342}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide4 .pic5 {
+  position: absolute;
+  left: 60%;
+  top: 18%;
+  width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003348}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide4 .pic6 {
+  position: absolute;
+  right: 2%;
+  top: 5%;
+  width: 19%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003354}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide4 .pic7 {
+  position: absolute;
+  left: 0%;
+  bottom: 15%;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003360}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide4 .pic8 {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  width: 125%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003366}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide4 .pic9 {
+  position: absolute;
+  left: -15%;
+  bottom: 0%;
+  width: 75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003372}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide4 .pic10 {
+  position: absolute;
+  left: 48%;
+  top: 25%;
+  width: 9%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003378}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide4 .pic11 {
+  position: absolute;
+  left: 64%;
+  top: 25%;
+  width: 9%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003384}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide4 .pic12 {
+  position: absolute;
+  left: 59%;
+  top: 25%;
+  width: 9%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003390}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide4 .pic13 {
+  position: absolute;
+  left: 53%;
+  top: 25%;
+  width: 9%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003396}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide4 .pic14 {
+  position: absolute;
+  right: 0%;
+  top: 40%;
+  width: 22%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003403}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide5 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003407}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide5 .pic1 {
+  position: absolute;
+  left: 7%;
+  top: 2%;
+  width: 30%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003413}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide5 .pic2 {
+  position: absolute;
+  left: 39.5%;
+  top: 6%;
+  width: 22%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003419}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide5 .pic3 {
+  position: absolute;
+  left: 63%;
+  top: 2%;
+  width: 30%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003425}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide5 .pic4 {
+  position: absolute;
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -webkit-transform: rotate(180deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(180deg);
+  /* Opera */
+  -moz-transform: rotate(180deg);
+  left: 0%;
+  top: -2%;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003436}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide5 .pic5 {
+  position: absolute;
+  left: -31%;
+  top: -10%;
+  width: 75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003442}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide5 .pic6 {
+  position: absolute;
+  left: 56%;
+  top: -10%;
+  width: 75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003448}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide5 .pic7 {
+  position: absolute;
+  left: 0%;
+  bottom: 5%;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003454}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide5 .pic8 {
+  position: absolute;
+  left: 0%;
+  bottom: -5.5%;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003460}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide5 .pic9 {
+  position: absolute;
+  left: 17.5%;
+  top: 24%;
+  width: 65%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003467}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003471}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic1 {
+  position: absolute;
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -webkit-transform: rotate(180deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(180deg);
+  /* Opera */
+  -moz-transform: rotate(180deg);
+  left: 0%;
+  top: -2%;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003482}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic2 {
+  position: absolute;
+  right: 3%;
+  top: -7%;
+  width: 16%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003488}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic3 {
+  position: absolute;
+  left: 17%;
+  top: -6%;
+  width: 11%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003494}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic4 {
+  position: absolute;
+  left: 2%;
+  top: -7%;
+  width: 15%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003500}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic5 {
+  position: absolute;
+  right: 9%;
+  bottom: 25%;
+  width: 30%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003507}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic6 {
+  position: absolute;
+  left: 3%;
+  top: 16%;
+  width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003515}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic8 {
+  position: absolute;
+  left: 22.5%;
+  top: 11%;
+  width: 55%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003521}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic9 {
+  position: absolute;
+  left: 17%;
+  bottom: 27%;
+  width: 45%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003527}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic10 {
+  position: absolute;
+  left: 17%;
+  bottom: 24%;
+  width: 45%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003533}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic11 {
+  position: absolute;
+  left: 7%;
+  top: 32%;
+  width: 20%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003539}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic12 {
+  position: absolute;
+  right: 8%;
+  top: 44%;
+  width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003545}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic13 {
+  position: absolute;
+  left: 45%;
+  top: 53%;
+  width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003551}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic14 {
+  position: absolute;
+  left: 25%;
+  bottom: 13%;
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003557}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic15 {
+  position: absolute;
+  left: 37.5%;
+  bottom: 4%;
+  width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003563}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic16 {
+  position: absolute;
+  left: 11%;
+  bottom: 30%;
+  width: 27%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003569}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic17 {
+  position: absolute;
+  left: 38%;
+  bottom: 30%;
+  width: 40%;
+  height: 14%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003576}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic18 {
+  position: absolute;
+  right: 14%;
+  bottom: 35%;
+  width: 10%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/春节项目\/css\/my\.less}line{font-family:\00003582}}
+.content .swiper-container .swiper-wrapper .swiper-slide .slide6 .pic19 {
+  position: absolute;
+  right: 0%;
+  bottom: -3%;
+  width: 100%;
+}
